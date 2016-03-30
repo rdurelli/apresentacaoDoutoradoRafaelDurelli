@@ -1,0 +1,212 @@
+ SLIDE 1: 
+Hello everyone, 
+
+During a previous SEED meeting I presented the Ranking method that I have been working on for the last few 
+months. 
+Today I will talk about the case study (protocol) we designed to evaluate the ranking method. Actually, 
+we haven't carried out the case study yet (so I don't have much to show in terms of results). 
+But, in preparation for the case study, we did carry out a pilot. 
+This pilot was an eye-opener in the sense that we realized what has to be changed in the method. 
+and that's what I'm going to talk about today. 
+Okay, so let me get started.
+------------------------------------------------------------------------------------------------
+SLIDE 2: Outline
+
+This is how I organized today's presentation. 
+First of all, I will talk about the rationale behind the conduction of the proposed case study. 
+Then, I will briefly discuss the research questions and the goal of the empirical study. 
+To give a better idea of the design of our study, I will try to outline the case and unit of analysis and 
+provide operational definitions of the variables we plan to take into account in this study. 
+
+(as I mentioned) 
+Oddly enough, the most interesting part of the presentation is exactly what went wrong during the pilot. 
+I mean, it's not like the pilot was a failure, it was successful in discovering problems with the method. 
+So, I will talk about the main problem we found out about. 
+
+And then explain what are our plans for the next step, I mean, how we are going to fix the method. 
+
+and then wrap up with some concluding remarks. 
+------------------------------------------------------------------------------------------------
+SLIDE 3: 
+
+Most of the ideas in each of the steps of the ranking method have been proposed elsewhere, 
+however, most of them haven't been evaluated yet. We only have anecdotal evidence of the usefulness of these techniques. 
+
+As I mentioned, our method employs several ideas. A ranking method similar to ours was proposed to evaluate architectures as a whole. 
+we argue that the ranking method should be applied to smaller and more manageable pieces of abstraction, like the decisions that comprise an architecture. 
+
+So the rationale behind designing this case study is 
+
+1) finding out if the method is effective (for now, bear with me, I will define effectiveness in a bit)
+2) how hard it is to carry out the method, that is, the effort (I will also define effort later on)
+and finally 
+3) we were also interested in getting some insight into the inhibitors: that is, 
+things that may hamper the conduction of the method. 
+------------------------------------------------------------------------------------------------
+SLIDE 4:
+
+We framed the goal of the empirical study according to the GQM template: 
+
+(read slides and so on...)
+
+------------------------------------------------------------------------------------------------
+SLIDE 5: 
+
+The case study is centered around three research questions: 
+
+as I mentioned, 
+
+we set out to find out, how effective the ranking method is. 
+
+and the effort of carrying out the method. 
+
+we also wanted to know what are the things that might prevent people from adopting our ranking method. That is, what does not scale well in practice, and maybe demands more time than the reviewers are willing to invest.  
+------------------------------------------------------------------------------------------------
+SLIDE 6: 
+
+Now let's talk about the case and unit of analysis
+As you can see, we plan an embedded case study: 
+where the case is our decision ranking method and the embedded units of analysis are the subjects. The context of this case study is a graduate course at the university and the subjects are students.
+
+------------------------------------------------------------------------------------------------
+SLIDE 7: 
+
+Here are the operational definitions, so to speak, that capture the meaning of the concepts that we set out to 
+investigate in this case study. 
+
+Effectiveness, in the context of this case study, 
+is a ratio scale variable. It is measured in terms of the amount of optimal decisions rated as such by the ranking method. 
+More specifically, in order to examine effectiveness and answer RQ1, after having the subjects go over architectural decisions using our ranking method, the resulting rankings will be evaluated by domain experts. So, effectiveness is based on the assessment of domain experts.
+
+Here effort is measured as an ordinal scale variable. We represent it using a Likert scale that goes from 
+Strenuous to Effortless. 
+Here I think it's worth mentioning that although most researchers see Likert scales as ordinal. 
+Some researchers usually think of Likert scales as interval because they assume that the distances between the scale values are equal. (not our case here though)
+
+and finally, we will investigate the inhibitors through an open question. 
+------------------------------------------------------------------------------------------------
+SLIDE 8: 
+
+As I mentioned, 
+we carried out a pilot to prepare for the case study. The main idea was that the pilot 
+would help us to refine the questionnaire and the data collection procedure. 
+Little did I know that the results would make me rethink the ranking method.  
+
+Okay, so now let's take a look at each part of the pilot. 
+
+First, during the pilot, the subject will go over the paper that describes the ranking method. 
+The subject will have one hour to read this 5-page paper. After which, the subject is encouraged to 
+ask questions about the ranking method. 
+
+Afterwards, to better understand the method. We prepared a sort of a hands-on practice exercise, 
+in which the subject will gain practical experience with the ranking method. The subject will have 45 minutes to go through 
+the examples. After that, the subject will be again encourage to ask questions about the "practicalities" of the method.
+
+Then, for the next step, we will have the subject go over an architectural document. 
+This architectural document describes a garage door system. So the decisions that will be ranked are related to 
+this particular domain. The subject will have 30 minutes to do so. 
+
+The next step is applying the ranking method to the decisions in the AD. 
+The subject will be given one hour and 30 minutes to complete the this phase. 
+
+In the end, the subject will be asked to fill out a questionnaire. And that's how we planned to 
+gather information to answer the research questions. 
+------------------------------------------------------------------------------------------------
+SLIDE 9: 
+
+This brings me to the most important part of the presentation: 
+when I will talk about the preliminary results of the pilot and about the problems with the ranking method 
+that the pilot helped me to find out about.
+
+------------------------------------------------------------------------------------------------
+SLIDE 10:
+
+Okay, so to recap: these are the 7 steps of the decision ranking method. 
+According to the preliminary results, everything in blue here 
+seems to be fine. 
+That is, the first 4 steps seem to strike the right balance between 
+the effort that is needed to carry them out and the benefits and insight that they provide. 
+
+According to the pilot results, however, step five, is really hard to understand and carry out. 
+And since steps 6 and 7 use the weights that are calculated in step 5, they are also in red here.
+They depend on step 5.
+
+By taking a look at the answers in the questionnaire, 
+you guys can have a better idea of the problems. 
+
+So Let's move on to results part.         
+
+------------------------------------------------------------------------------------------------
+SLIDE 11
+SLIDE 12
+SLIDE 13:
+Just roll with it.
+------------------------------------------------------------------------------------------------
+SLIDE 14:
+
+Let me now move on to the free-form questions. 
+Here we will take a look at parts of the answers to each of the questions. 
+
+When asked about the major strengths of the ranking method, the subject replied that: 
+The method provides an structured way of identifying the relative priorities of forces. 
+Which, I believe, indicates the usefulness of the method. 
+
+Then, when asked about the shortcomings of the method, the subject replied: 
+(and here problems galore)
+
+-Coming up with HE decisions (that is, creating the indifferent points) is not trivial. 
+It requires knowledge about the weights of the forces.- 
+Well, in a way, you don't need to know the weights of the forces, so this was a slight misconception. 
+what you actually need to know... what you need to keep in mind... is the interplay between forces. 
+
+Then, the subject pointed out that if stakeholders can come up with HE decisions, 
+why do they need to rank forces in the first place? 
+
+The subject is right when he indicates that in cases where more than 3 forces need to be taken into account, 
+the HE method becomes significantly more complex. So, in a way, he has a point when he says that the
+method does not scale well in this sense. 
+
+------------------------------------------------------------------------------------------------
+SLIDE 15: 
+
+The last question was about the practical difficulties of applying the ranking method. 
+Since the subject wasn't able to fully grasp the HE method, I was expecting he would write something along those 
+lines here, something about how hard it is to grasp the HE, as he mentioned before. 
+but instead he wrote that he has the impression that he cold have gotten better results from the 
+method if a group of people were involved in the ranking process. 
+
+------------------------------------------------------------------------------------------------
+SLIDE 16:
+
+By interpreting the results, I realized that I needed to take a step back and see 
+how my method compares with similar methods. 
+
+So I broke it down to the main elements that, according to the literature, 
+make up evaluation methods. Well, since I believe our ranking method is a subclass 
+of what is known as evaluation methods, this is also applicable here. 
+
+According to the literature, most methods have 3 phases that take place in a chronological order. 
+
+The first phase, called 'description', is aimed at properly describing the QAs to avoid misinterpretations and 
+to make sure that the stakeholders have a common and clear understanding of the QAs. 
+This phase is covered by step 1 in my ranking method. 
+
+The second phase in every method is all about identifying which QAs are more desirable than the others, they usually 
+apply some mechanism to describe the extend to which a QA is desirable. In my ranking method this is performed in steps 
+2 and 3. 
+
+and finally, the third phase is concerned with finding out the fulfillment level of each QA; naturally 
+each alternative addresses different QAs to a different extent. In my ranking method this is done in steps 4 and 5. 
+
+As I mentioned, step 5, where we have to calculate the HE method is the problematic step here. 
+
+
+
+
+
+
+
+TO USE:
+
+"Such investigations may make valuable pilot studies, for example to “test” aspects of the research design, in preparation for subsequent case studies."
+

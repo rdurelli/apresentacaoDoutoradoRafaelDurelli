@@ -1,0 +1,29 @@
+\frametitle{The Three RQs that Drive the Case Study}
+
+The goals were framed as the following RQs:
+
+% \vspace{0.2cm}
+
+\begin{block}{\textbf{RQ$_1$:}}
+\begin{minipage}[b]{10.80cm}
+How \textbf{effective} is our decision ranking method at
+ranking architectural decisions?
+\end{minipage}
+\end{block}
+
+% \vspace{0.1cm}
+
+\begin{block}{\textbf{RQ$_2$:}}
+\begin{minipage}[b]{10.80cm}
+What is the \textbf{effort} needed to evaluate decisions using our decision ranking method?
+\end{minipage}
+\end{block}
+
+% \vspace{0.1cm}
+
+\begin{block}{\textbf{RQ$_3$:}}
+\begin{minipage}[b]{10.80cm}
+What are the \textbf{inhibitors} associated with our decision ranking method?
+\end{minipage}
+\end{block}
+
